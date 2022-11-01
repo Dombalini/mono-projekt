@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+.routes-container {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 20vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-luke {
+    background-image: url(../assets/anakin-skywalker.png);
+}
+.img-obi {
+    background-image: url(../assets/obi-wan.jpg);
+}
+.img-darth {
+    background-image: url(../assets/darth-wader.jpg);
+}
+.img-3cpo {
+    background-image: url(../assets/3cpo.jpg);
+}
+.routes-image {
+    height: 30vh;
+    width: 20%;
+    background-color: beige;
+
+    background-size: cover;
+}
+
+.routes-title {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Gugi", cursive;
+}
+
+.routes-text {
+    font-size: 30px;
+    font-family: "Gugi", cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
